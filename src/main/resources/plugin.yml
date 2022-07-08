@@ -10,3 +10,8 @@ commands:
   givegc:
     description: Give a giftcard to a player
     permission: tebexg.givegc
+    aliases:
+      - ggc
+permissions:
+  tebexg.givegc:
+    default: op

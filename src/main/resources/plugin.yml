@@ -1,0 +1,12 @@
+name: TebexG
+version: '${project.version}'
+main: gamlin.xyz.tebex.TebexG
+api-version: 1.18
+prefix: TebexG
+authors: [ Gamlin ]
+description: Allows you to automatically send giftcard codes to the player
+website: https://gamlin.xyz
+commands:
+  givegc:
+    description: Give a giftcard to a player
+    permission: tebexg.givegc
